@@ -14,7 +14,7 @@
       font-family: Arial, Helvetica, sans-serif;
       background: #ffffff;
       color: #1f2933;
-      line-height: 1.6;
+      line-height: 1.65;
     }
 
     .container {
@@ -24,7 +24,7 @@
     }
 
     header {
-      padding: 34px 0 26px;
+      padding: 32px 0 24px;
       border-bottom: 1px solid #e5e7eb;
     }
 
@@ -59,12 +59,16 @@
       border-bottom: 1px solid #e5e7eb;
     }
 
-    .eyebrow {
+    .eyebrow,
+    .section-title {
       font-size: 13px;
       font-weight: 700;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #667085;
+    }
+
+    .eyebrow {
       margin-bottom: 18px;
     }
 
@@ -80,8 +84,15 @@
     .intro {
       font-size: 19px;
       color: #4b5563;
+      max-width: 780px;
+      margin-bottom: 20px;
+    }
+
+    .experience {
+      font-size: 16px;
+      color: #667085;
       max-width: 760px;
-      margin-bottom: 26px;
+      margin-bottom: 24px;
     }
 
     .focus {
@@ -95,11 +106,6 @@
     }
 
     .section-title {
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: #667085;
       margin-bottom: 28px;
     }
 
@@ -120,10 +126,12 @@
       margin: 0 0 14px;
     }
 
-    .article-summary {
+    .article-summary,
+    .about-preview,
+    .approach {
       font-size: 17px;
       color: #4b5563;
-      margin-bottom: 14px;
+      max-width: 780px;
     }
 
     .read-link {
@@ -148,12 +156,6 @@
       font-size: 17px;
       padding: 12px 0;
       border-bottom: 1px solid #eef0f2;
-    }
-
-    .about {
-      max-width: 760px;
-      font-size: 17px;
-      color: #4b5563;
     }
 
     footer {
@@ -206,20 +208,19 @@
       <div class="name">Lucien Colas</div>
 
       <nav>
-        <a href="#analysis">Analysis</a>
-        <a href="#about">About</a>
+        <a href="index.html#analysis">Analysis</a>
+        <a href="about.html">About</a>
         <a href="#">FR</a>
         <a href="#">EN</a>
       </nav>
     </div>
   </header>
 
-
   <main>
 
     <section class="hero">
       <div class="container">
-        <div class="eyebrow">Independent Analytical Portfolio</div>
+        <div class="eyebrow">Independent Analysis</div>
 
         <h1>Geopolitics · Geoeconomics · Strategic Analysis</h1>
 
@@ -229,16 +230,21 @@
           strategic industries and great-power competition.
         </p>
 
+        <p class="experience">
+          Drawing on more than eight years of international experience,
+          including several years in China and current exposure to strategic
+          sectors and economic-security issues.
+        </p>
+
         <div class="focus">
           China & Asia-Pacific · Economic Security · Strategic Industries · Great-Power Competition
         </div>
       </div>
     </section>
 
-
     <section id="analysis">
       <div class="container">
-        <div class="section-title">Latest Analysis</div>
+        <div class="section-title">Selected Analysis</div>
 
         <div class="article-card">
           <div class="article-meta">
@@ -262,7 +268,6 @@
       </div>
     </section>
 
-
     <section>
       <div class="container">
         <div class="section-title">Areas of Focus</div>
@@ -271,37 +276,42 @@
           <div class="focus-item">China & Asia-Pacific</div>
           <div class="focus-item">Geoeconomics & Economic Security</div>
           <div class="focus-item">Critical Minerals & Strategic Value Chains</div>
-          <div class="focus-item">Technology & Industrial Competition</div>
-          <div class="focus-item">Great-Power Competition</div>
-          <div class="focus-item">Strategic Foresight</div>
+          <div class="focus-item">Great-Power Competition & Strategic Foresight</div>
         </div>
       </div>
     </section>
 
+    <section>
+      <div class="container">
+        <div class="section-title">Approach</div>
 
-    <section id="about">
+        <div class="approach">
+          Analysis combining geopolitical context, political economy,
+          open-source research and long-term strategic perspectives,
+          with an emphasis on implications for decision-makers.
+        </div>
+      </div>
+    </section>
+
+    <section>
       <div class="container">
         <div class="section-title">About</div>
 
-        <div class="about">
+        <div class="about-preview">
           <p>
-            Lucien Colas is an international affairs professional with more than
-            eight years of experience in economic diplomacy, international
-            cooperation and institutional engagement, including several years
-            based in China.
+            International affairs professional with more than eight years of
+            experience across Europe and Asia, including several years based
+            in China.
           </p>
 
-          <p>
-            His areas of interest include geopolitical and geoeconomic analysis,
-            China and the Asia-Pacific, economic security, strategic industries,
-            critical minerals and international power dynamics.
-          </p>
+          <a class="read-link" href="about.html">
+            Read more →
+          </a>
         </div>
       </div>
     </section>
 
   </main>
-
 
   <footer>
     <div class="container">
